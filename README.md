@@ -23,7 +23,7 @@
 - **Insight**: Cohort analysis highlighted periods with low retention rates, which helped in identifying areas for improvement in customer engagement and product satisfaction.
 
 [view code 👆](/5_poroject/5_2_cohort_analysis.ipynb)
-![.](/2_images/5_2_cohort analysis.png)
+![](/2_images/5_2_cohort analysis.png)
 
 ### 3. Dynamic Sales Forecasting
 **Objective**: To predict future sales based on historical data using advanced time series forecasting techniques. This analysis helped in strategic planning, inventory management, and budgeting.
