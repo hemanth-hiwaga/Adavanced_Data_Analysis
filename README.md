@@ -12,7 +12,7 @@
 
 [view code 👆](/5_poroject/5_1_CLV.ipynb)
 
-
+---
 
 ### 2. Cohort Analysis: Tracking User Retention
 **Objective**: To understand the behavior and retention of specific groups of users (cohorts) over time. This analysis provided insights into long-term user engagement and the impact of changes on different user groups.
@@ -24,7 +24,10 @@
 
 [view code 👆](/5_poroject/5_2_cohort_analysis.ipynb)
 ![](2_images/5_2_cohort_analysis.png)
+[visulization is like this due to data]
+The cohort analysis heatmap for retention rate shows that all cohorts from January 2019 to January 2020 have a retention rate of 100% in their first month (indicated by "cohort index 1"). This suggests that every cohort, regardless of their start month, retained all users during their initial month, which is a positive indication of initial engagement.
 
+---
 
 ### 3. Dynamic Sales Forecasting
 **Objective**: To predict future sales based on historical data using advanced time series forecasting techniques. This analysis helped in strategic planning, inventory management, and budgeting.
@@ -37,6 +40,9 @@
 [view code 👆](/5_poroject/5_3_time_series.ipynb)
 ![](/2_images/5_3_forecating.png)
 
+The sales forecast graph shows a steady increase in actual sales from early 2019 through to late 2019, followed by a sharp drop at the start of 2020. The forecasted sales (in red) depict a high level of fluctuation across 2020, with alternating peaks and troughs, indicating volatility in sales projections. This volatility could reflect seasonal trends, demand shifts, or external factors affecting sales.
+
+---
 
 ### 4. Discovering Product Associations with Market Basket Analysis
 **Objective**: To identify associations between different products, understanding which products are frequently bought together. This analysis supported product placement, promotions, and cross-selling strategies.
@@ -49,6 +55,9 @@
 [view code 👆](/5_poroject/5_4_market_basket.ipynb)
 ![](/2_images/5_4_basket.png)
 
+ network graph maps associations between various products. "Google Phone" connects with "USB-C Charging Cable," suggesting compatibility and common purchasing patterns. Similarly, "iPhone" links with "Lightning Charging Cable," reflecting the same trend. Analyzing these patterns helps identify key accessory bundles and optimize product offerings
+
+ ---
 
 ### 5. Segmenting Customers for Targeted Marketing
 **Objective**: To group customers based on their purchasing behavior, identifying distinct segments for personalized marketing efforts and enhanced customer experience.
@@ -59,8 +68,11 @@
 - **Insight**: Customer segmentation uncovered various customer types, allowing for tailored marketing campaigns and personalized offers, improving customer satisfaction and loyalty.
 [view code 👆](/5_poroject/5_5_customer_segmentation.ipynb)
 ![](/2_images/5_5_1_clustering.png)
+Elbow Method plot suggests three clusters as optimal for minimizing inertia. The steep drop in inertia from one to three clusters indicates a significant gain in clustering efficiency. After three clusters, additional clusters contribute minimally to reducing inertia.
 
 ![](/2_images/5_5_2_clustering.png)
+
+scatter plot shows a positive correlation between quantity ordered and total sales. Higher quantities ordered spread across a wider range of total sales values. Lower quantities tend to cluster at lower total sales, hinting that big orders bring variability in sales outcomes.
 
 ### Summary
 Through these comprehensive analyses, we gained valuable insights into customer behavior, sales trends, and product associations. These insights informed strategic decisions, enhanced customer satisfaction, and drove revenue growth. By leveraging data analytics, we transformed raw data into actionable business intelligence, strengthening our competitive edge in the e-commerce market.
