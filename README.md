@@ -24,7 +24,8 @@
 
 [view code 👆](/5_poroject/5_2_cohort_analysis.ipynb)
 ![](2_images/5_2_cohort_analysis.png)
-[visulization is like this due to data]
+[visulization is like this due to data]()
+
 The cohort analysis heatmap for retention rate shows that all cohorts from January 2019 to January 2020 have a retention rate of 100% in their first month (indicated by "cohort index 1"). This suggests that every cohort, regardless of their start month, retained all users during their initial month, which is a positive indication of initial engagement.
 
 ---
